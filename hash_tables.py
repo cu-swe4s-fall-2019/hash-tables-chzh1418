@@ -197,7 +197,7 @@ if __name__ == '__main__':
         t0 = time.time()
         hash_table.add(line, line)
         t1 = time.time()
-        print('add key value: ' + str(t1 - t0))
+        print('add key value:', hash_table.M/hash_table.N, t1 - t0)
         if hash_table.M == args.keys_to_add:
             break
 
