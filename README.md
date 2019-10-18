@@ -2,7 +2,7 @@
 Implement different hash functions and test for insert time
 
 ## Continuous Integration status
-
+[![Build Status](https://travis-ci.com/cu-swe4s-fall-2019/hash-tables-chzh1418.svg?branch=master)](https://travis-ci.com/cu-swe4s-fall-2019/hash-tables-chzh1418)
 
 ## Installation
 To use this package, you need to install [Python3](https://www.python.org/downloads/release/python-373/) in your environment.
