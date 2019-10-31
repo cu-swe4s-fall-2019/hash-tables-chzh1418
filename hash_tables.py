@@ -105,6 +105,7 @@ class ChainedHash:
         self.N = N
         self.T = [[] for i in range(N)]
         self.M = 0
+        self.K = []  # Array to store keys
 
     def add(self, key, value):
         """
@@ -120,6 +121,7 @@ class ChainedHash:
         hash_slot = self.hash_function(key, self.N)
         self.T[hash_slot].append((key, value))
         self.M += 1
+        self.K.append(key.strip('\n'))
         return True
 
     def search(self, key):
